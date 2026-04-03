@@ -3,7 +3,7 @@
  * Plugin Name: Secure Defaults
  * Plugin URI:  https://github.com/h-montoto/secure-defaults
  * Description: Baseline security hardening for WordPress. Disables comments, XML-RPC, restricts REST API, prevents user enumeration, and removes unnecessary head output.
- * Version:     1.0.0
+ * Version:     0.0.1
  * Requires at least: 6.0
  * Requires PHP: 8.0
  * Author:      Hugo Montoto
@@ -15,7 +15,7 @@
 defined('ABSPATH') || exit;
 
 // Plugin constants
-define('SECURE_DEFAULTS_VERSION', '1.0.0');
+define('SECURE_DEFAULTS_VERSION', '0.0.1');
 define('SECURE_DEFAULTS_FILE', __FILE__);
 define('SECURE_DEFAULTS_DIR', plugin_dir_path(__FILE__));
 

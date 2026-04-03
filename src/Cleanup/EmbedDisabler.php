@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-defined('ABSPATH') || exit;
-
 namespace WPSecureDefaults\Cleanup;
+
+defined('ABSPATH') || exit;
 
 /**
  * Disables WordPress oEmbed and the wp-embed script.

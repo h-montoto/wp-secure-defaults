@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-defined('ABSPATH') || exit;
-
 namespace WPSecureDefaults\Utils;
+
+defined('ABSPATH') || exit;
 
 /**
  * Central configuration for WP Secure Defaults.

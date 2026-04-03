@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-defined('ABSPATH') || exit;
-
 namespace WPSecureDefaults\Security;
+
+defined('ABSPATH') || exit;
 
 /**
  * Disables the WordPress comment system site-wide.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-defined('ABSPATH') || exit;
-
 namespace WPSecureDefaults\Security;
+
+defined('ABSPATH') || exit;
 
 /**
  * Applies admin-area hardening measures.

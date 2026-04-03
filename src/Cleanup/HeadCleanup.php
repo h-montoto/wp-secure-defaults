@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-defined('ABSPATH') || exit;
-
 namespace WPSecureDefaults\Cleanup;
+
+defined('ABSPATH') || exit;
 
 /**
  * Removes unnecessary tags and links from the HTML <head>.
